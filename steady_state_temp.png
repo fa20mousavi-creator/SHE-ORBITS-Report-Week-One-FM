@@ -1,0 +1,70 @@
+# Steady-State Temperature Analysis v0.1
+
+## Status
+
+Completed.
+
+A preliminary 1D steady-state thermal analysis was performed
+for the GNSS L1 Helix antenna using MATLAB.
+
+## Simulation
+
+- Simulation duration: 24 hours
+- Initial temperature: 20 °C
+- Number of thermal nodes: 50
+- Eclipse: OFF
+
+## Thermal Model
+
+The model includes:
+
+- Solar heating
+- Albedo heating
+- Earth infrared heating
+- Axial thermal conduction along the Helix
+- Thermal radiation to space
+
+The current model does not yet include:
+
+- Ground Plane thermal coupling
+- Feed thermal conduction
+- Detailed radiation view factors
+- Temperature-dependent material properties
+- Validated optical surface properties
+- Detailed thermal contact resistance
+
+## Steady-State Results
+
+| Parameter | Result |
+|---|---:|
+| Simulation time | 24 h |
+| Minimum temperature | 20.0000 °C |
+| Maximum temperature | 21.0651 °C |
+| Mean temperature | 20.6975 °C |
+| Temperature range | 1.0651 °C |
+| Last-step temperature change | 0 K |
+
+## Interpretation
+
+The model reached a numerically stable temperature
+distribution at the end of the 24-hour simulation.
+
+The maximum temperature was 21.0651 °C,
+while the minimum temperature was 20.0000 °C.
+
+This is a preliminary steady-state result and should not
+yet be considered the final thermal prediction of the
+complete antenna system.
+
+## Output
+
+The following files were generated:
+
+- `steady_state_temperature_v01.png`
+- `steady_state_temperature_v01.csv`
+- `steady_state_temperature_v01.mat`
+
+## Next Step
+
+The next stage is to introduce the Ground Plane thermal coupling
+and develop the coupled thermal model.
