@@ -1,1 +1,6 @@
-
+Material,Role,Thermal_Conductivity_W_mK,CTE_1_K,Density_kg_m3,Dielectric_Constant,Loss_Tangent,Solar_Absorptivity,IR_Emissivity,Status
+Copper,Helix wire,385,16.5e-6,8960,1.0,0,0.30,0.80,Preliminary model value
+Aluminum 6061-T6,Ground plane,167,23.6e-6,2700,1.0,0,0.30,0.80,Preliminary model value
+Rogers RT_duroid 5880,Dielectric reference,0.20,20e-6,2200,2.20,0.0009,0.20,0.90,Reference material
+PTFE,Radome candidate,0.25,123e-6,2200,2.10,0.0002,0.20,0.90,Reference material
+PMMA Acrylic,Radome candidate,0.20,70e-6,1180,2.60,0.02,0.20,0.90,Reference material
